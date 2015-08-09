@@ -134,7 +134,8 @@ The language chosen was [**R**](https://www.r-project.org/) and the package is [
 
 ### Community Structure Visualization of Gnutella peer-to-peer network, August 4 2002
 
-The aim is to explore the community structure of the Gnutella peer-to-peer network as on August 4 2002 in order to reveal the structure obfuscated by the amount of detail from the simple plot of the network data above.
+The aim is to explore the community structure of the Gnutella peer-to-peer network as on August 4 2002 in order to reveal the structure.   
+I started by exploring the structure of the network by trying to show all the nodes and edges. Since there are a lot of nodes and edges community structure was difficult to be revealed.
 
 [R Code](https://github.com/limbu-malongo/DataVis_LM/blob/master/Programming_Assignment_2%20v0.2.R)
 
@@ -148,7 +149,7 @@ The aim is to explore the community structure of the Gnutella peer-to-peer netwo
 
 #### Community Structure Visualization of Gnutella peer-to-peer network, August 4 2002
 
-The aim is to explore the community structure of the Gnutella peer-to-peer network as on August 4 2002 in order to reveal the structure obfuscated by the amount of detail from the simple plot of the network data.
+We explore the community structure of the Gnutella peer-to-peer network as on August 4 2002 in order to reveal the structure obfuscated by the amount of detail from the network plots.
 
 ![Community Structure Visualization of Gnutella peer-to-peer network, August 4 2002](figures/data_vis_assgn2_3_Final.jpeg)   
 The size of the vertex is proportional to the size of the community clustered and centred at a particular node.
