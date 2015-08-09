@@ -104,7 +104,7 @@ This assignment is meant to give the opportunity to do non-coordinate data visua
 
 A sequence of snapshots of the Gnutella peer-to-peer file sharing network from August 2002. There are total of 9 snapshots of Gnutella network collected in August 2002. Nodes represent hosts in the Gnutella network topology and edges represent connections between the Gnutella hosts.
 
-#### Dataset statistics
+#### [Dataset statistics](http://snap.stanford.edu/data/p2p-Gnutella04.html)  
 
   Properties | Values
 ------------- | -------------
@@ -126,6 +126,27 @@ File  | Description
 ------------- | -------------
 [p2pGnutella04.txt.gz](http://snap.stanford.edu/data/p2p-Gnutella04.txt.gz)  | Directed Gnutella P2P network from August 4 2002
 
+### Visualization Platform
+
+The language chosen was [**R**](https://www.r-project.org/) and the package is [**igraph**](http://igraph.org/redirect.html)
+
+### Community Structure Visualization of Gnutella peer-to-peer network, August 4 2002
+
+[R Code](https://github.com/limbu-malongo/DataVis_LM/blob/master/Programming_Assignment_2%20v0.2.R)
+
+#### Visualization of All the Nodes
+
+![Visualization of All the Nodes](figures/data_vis_assgn1_1.jpg)
+
+#### Decorated Visualization of All the Nodes
+
+![Decorated Visualization of All the Nodes](figures/data_vis_assgn1_2.jpg)
+
+#### Community Structure Visualization of Gnutella peer-to-peer network, August 4 2002
+
+![Community Structure Visualization of Gnutella peer-to-peer network, August 4 2002](figures/data_vis_assgn1_3.jpg)   
+The size of the vertex is proportional to the size of the community clustered and centred at a particular node.
+
 ### References
 
 1. Coursera Data Visualization Course Discussion Forums
@@ -133,4 +154,11 @@ File  | Description
 3. [The R Development Core Team, 2015: A Language and Environment for Statistical Computing](https://www.r-project.org/)
 4. J. Leskovec, J. Kleinberg and C. Faloutsos.[Graph Evolution: Densification and Shrinking Diameters.](http://www.cs.cmu.edu/~jure/pubs/powergrowth-tkdd.pdf) ACM
 Transactions on Knowledge Discovery from Data (ACM TKDD), 1(1), 2007. 
-5. M. Ripeanu and I. Foster and A. Iamnitchi.[Mapping the Gnutella Network: Properties of Large-Scale Peer-to-Peer Systems and Implications for System Design.](http://snap.stanford.edu/data/p2p-Gnutella04.html) IEEE Internet Computing Journal, 2002.  
+5. M. Ripeanu and I. Foster and A. Iamnitchi.[Mapping the Gnutella Network: Properties of Large-Scale Peer-to-Peer Systems and Implications for System Design.](http://snap.stanford.edu/data/p2p-Gnutella04.html) IEEE Internet Computing Journal, 2002. 
+6. [Create Basic Visualizations](http://web.stanford.edu/~messing/CreateBasicNetVis.html)
+7. [Social Networks in R](http://www.shizukalab.com/toolkits/sna/sna_data)
+8. [Static and dynamic network visualization with R](http://kateto.net/network-visualization)
+9. [Contracting and simplifying a network graph](http://blog.revolutionanalytics.com/2015/08/contracting-and-simplifying-a-network-graph.html)
+10. [Community structure via short random walks](http://www.inside-r.org/packages/cran/igraph/docs/walktrap.community)
+11. [Computing communities in large networks using random walks (long version)](http://arxiv.org/abs/physics/0512106)
+12. [Finding Communities In Networks With R And Igraph]( http://www.sixhat.net/finding-communities-in-networks-with-r-and-igraph.html)
