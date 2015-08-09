@@ -81,6 +81,20 @@ and Fall/Autumn(Khaki) can be compared to Annual Average Temperature(Red).
 
 ## Programming Assignment 2: Visualize Network Data
 
+### Summary
+
+The data chosen was Gnutella peer-to-peer file sharing network of August 4 2002. Since this was the first time dealing with non-coordinate data visualization I wanted to challenge 
+my self by selecting one the given data to see if I will get some insights. I picked this data because I wanted to explore the concept of community clusters.   
+I used all the data of Gnutella peer-to-peer file sharing network of August 4 2002, Nodes represent hosts in the Gnutella network topology and edges represent connections between the Gnutella hosts.   
+The visualization was expected to answer the following questions:
+
+* *Was there any community clusters on Gnutella peer-to-peer network, August 4 2002 data?*
+* *If there were community clusters where they were centred?*
+* *Were the community size of the same size or varying?*
+
+The visualization answers the above question. Community clusters were identified. The community clusters were centred at node number shown. The size of the vertex is proportional to the size of the community cluster, hence they were of varying sizes.
+
+
 ### Instructions
 
 1. Find some Network Data that you think is suitable and that you would like to visualize. Here are some sites that provide links to a wide variety of different graph/network datasets:
@@ -102,9 +116,8 @@ This assignment is meant to give the opportunity to do non-coordinate data visua
 
 ### Data Chosen
 
-#### [Gnutella peer-to-peer network, August 4 2002](http://snap.stanford.edu/data/p2p-Gnutella04.html)  
+#### [Gnutella peer-to-peer network, August 4 2002](http://snap.stanford.edu/data/p2p-Gnutella04.html) 
 
-A sequence of snapshots of the Gnutella peer-to-peer file sharing network from August 2002. There are total of 9 snapshots of Gnutella network collected in August 2002. Nodes represent hosts in the Gnutella network topology and edges represent connections between the Gnutella hosts.
 
 #### [Dataset statistics](http://snap.stanford.edu/data/p2p-Gnutella04.html)  
 
@@ -134,7 +147,7 @@ The language chosen was [**R**](https://www.r-project.org/) and the package is [
 
 ### Community Structure Visualization of Gnutella peer-to-peer network, August 4 2002
 
-The aim is to explore the community structure of the Gnutella peer-to-peer network as on August 4 2002 in order to reveal the structure.   
+The aim is to explore the community structure of the Gnutella peer-to-peer network as on August 4 2002.   
 I started by exploring the structure of the network by trying to show all the nodes and edges. Since there are a lot of nodes and edges community structure was difficult to be revealed.
 
 [R Code](https://github.com/limbu-malongo/DataVis_LM/blob/master/Programming_Assignment_2%20v0.2.R)
@@ -170,3 +183,4 @@ Transactions on Knowledge Discovery from Data (ACM TKDD), 1(1), 2007.
 11. [Computing communities in large networks using random walks (long version)](http://arxiv.org/abs/physics/0512106)
 12. [Finding Communities In Networks With R And Igraph]( http://www.sixhat.net/finding-communities-in-networks-with-r-and-igraph.html)
 13. [Politècnica de Catalunya (UPC) - Complex and Social Networks (Lecture Notes)](http://www.cs.upc.edu/~CSN/index.html)
+14. [igraph – The network analysis package](http://igraph.org/redirect.html)
