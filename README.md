@@ -132,6 +132,8 @@ The language chosen was [**R**](https://www.r-project.org/) and the package is [
 
 ### Community Structure Visualization of Gnutella peer-to-peer network, August 4 2002
 
+The aim is to explore the community structure of the Gnutella peer-to-peer network as on August 4 2002 in order to reveal the structure obfuscated by the amount of detail from the simple plot of the network data above.
+
 [R Code](https://github.com/limbu-malongo/DataVis_LM/blob/master/Programming_Assignment_2%20v0.2.R)
 
 #### Visualization of All the Nodes
