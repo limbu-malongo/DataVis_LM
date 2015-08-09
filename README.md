@@ -77,6 +77,8 @@ and Fall/Autumn(Khaki) can be compared to Annual Average Temperature(Red).
 
 ******
 
+******
+
 ## Programming Assignment 2: Visualize Network Data
 
 ### Instructions
@@ -166,3 +168,4 @@ Transactions on Knowledge Discovery from Data (ACM TKDD), 1(1), 2007.
 10. [Community structure via short random walks](http://www.inside-r.org/packages/cran/igraph/docs/walktrap.community)
 11. [Computing communities in large networks using random walks (long version)](http://arxiv.org/abs/physics/0512106)
 12. [Finding Communities In Networks With R And Igraph]( http://www.sixhat.net/finding-communities-in-networks-with-r-and-igraph.html)
+13. [Politècnica de Catalunya (UPC) - Complex and Social Networks (Lecture Notes)](http://www.cs.upc.edu/~CSN/index.html)
