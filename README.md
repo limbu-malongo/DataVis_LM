@@ -136,15 +136,15 @@ The language chosen was [**R**](https://www.r-project.org/) and the package is [
 
 #### Visualization of All the Nodes
 
-![Visualization of All the Nodes](figures/data_vis_assgn1_1.jpg)
+![Visualization of All the Nodes](figures/data_vis_assgn2_1.jpg)
 
 #### Decorated Visualization of All the Nodes
 
-![Decorated Visualization of All the Nodes](figures/data_vis_assgn1_2.jpg)
+![Decorated Visualization of All the Nodes](figures/data_vis_assgn2_2.jpg)
 
 #### Community Structure Visualization of Gnutella peer-to-peer network, August 4 2002
 
-![Community Structure Visualization of Gnutella peer-to-peer network, August 4 2002](figures/data_vis_assgn1_3.jpg)   
+![Community Structure Visualization of Gnutella peer-to-peer network, August 4 2002](figures/data_vis_assgn2_3.jpg)   
 The size of the vertex is proportional to the size of the community clustered and centred at a particular node.
 
 ### References
