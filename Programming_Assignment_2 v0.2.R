@@ -1,7 +1,7 @@
 ############################################################################
 #
-#     Coursera Data Visualization
-#     by John C. Hart
+#     Coursera Data Visualization Course
+#     Instructor: John C. Hart
 #     Programming Assignment 2: Visualize Network Data
 #     August 2015
 #
@@ -43,7 +43,7 @@ el=as.matrix(dat)
 g=graph.edgelist(el,directed=TRUE) # turns the edgelist into a 'graph object'
 g
 
-# Visualize the graph
+# Visualize the graph (all the nodes)
 # Be patient the graphic may take sometime to be processed and displayed
 plot.igraph(g)
 
