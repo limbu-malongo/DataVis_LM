@@ -104,10 +104,21 @@ This assignment is meant to give the opportunity to do non-coordinate data visua
 
 A sequence of snapshots of the Gnutella peer-to-peer file sharing network from August 2002. There are total of 9 snapshots of Gnutella network collected in August 2002. Nodes represent hosts in the Gnutella network topology and edges represent connections between the Gnutella hosts.
 
-Dataset statistics
+#### Dataset statistics
+
+  | 
 ------------- | -------------
 Nodes  | 10876
 Edges  | 39994
+Nodes in largest WCC | 10876 (1.000)
+Edges in largest WCC | 39994 (1.000)
+Nodes in largest SCC | 4317 (0.397)
+Edges in largest SCC | 18742 (0.469)
+Average clustering coefficient | 0.0062
+Number of triangles	| 934
+Fraction of closed triangles | 0.001807
+Diameter (longest shortest path) | 9
+90-percentile effective diameter | 5.4
 
 #### Files
  
