@@ -146,6 +146,8 @@ The aim is to explore the community structure of the Gnutella peer-to-peer netwo
 
 #### Community Structure Visualization of Gnutella peer-to-peer network, August 4 2002
 
+The aim is to explore the community structure of the Gnutella peer-to-peer network as on August 4 2002 in order to reveal the structure obfuscated by the amount of detail from the simple plot of the network data.
+
 ![Community Structure Visualization of Gnutella peer-to-peer network, August 4 2002](figures/data_vis_assgn2_3_Final.jpeg)   
 The size of the vertex is proportional to the size of the community clustered and centred at a particular node.
 
