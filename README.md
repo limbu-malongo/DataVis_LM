@@ -72,3 +72,54 @@ and Fall/Autumn(Khaki) can be compared to Annual Average Temperature(Red).
 13. [Table of Color](http://www.farb-tabelle.de/en/table-of-color.htm)
 14. [Climate Charts & Graphs I](https://chartsgraphs.wordpress.com/r-resources/)
 15. [Graphics In the R language Presentation](http://www.stat.berkeley.edu/~statcur/WorkshopBC/Presentations/Graphics/graphics.pdf)
+16. [Practical Rules for Using Color in Charts](http://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf)
+17. [Background Colors](http://www.backgroundcolor.net/)
+
+******
+
+## Programming Assignment 2: Visualize Network Data
+
+### Instructions
+
+1. Find some Network Data that you think is suitable and that you would like to visualize. Here are some sites that provide links to a wide variety of different graph/network datasets:
+     + [http://snap.stanford.edu/data/index.html](http://snap.stanford.edu/data/index.html)
+     + [https://networkdata.ics.uci.edu/index.php](https://networkdata.ics.uci.edu/index.php)
+
+2. Choose a visualization platform and parse the data into a format suitable for the tools you will use.
+     + For non-programmers, there are downloadable programs for creating graph visualizations at:[ http://graphviz.org](http://graphviz.org). The program "neato" is a good place to start, which creates a layout for an undirected graph based on multidimensional scaling. The main challenge with using these tools is converting the graph data into the input text file format used by the tool, and understanding (and experimenting with) the various tool settings.
+     + For programmers, there are graph visualization tools available in D3 for JavaScript, such as force directed graphs, treemaps, collision detection, and a nice graph drawing tutorial. Feel free to use any other libraries or languages as well.
+
+### Overview
+
+This assignment is meant to give the opportunity to do non-coordinate data visualization. 
+
+### Goals
+
+1. To explore the means of network visualization
+2. To decide how best to visualize network data, and to analyze other network visualizations.
+
+### Data Chosen
+
+#### [Gnutella peer-to-peer network, August 4 2002](http://snap.stanford.edu/data/p2p-Gnutella04.html)  
+
+A sequence of snapshots of the Gnutella peer-to-peer file sharing network from August 2002. There are total of 9 snapshots of Gnutella network collected in August 2002. Nodes represent hosts in the Gnutella network topology and edges represent connections between the Gnutella hosts.
+
+Dataset statistics
+------------- | -------------
+Nodes  | 10876
+Edges  | 39994
+
+#### Files
+ 
+File  | Description
+------------- | -------------
+[p2pGnutella04.txt.gz](http://snap.stanford.edu/data/p2p-Gnutella04.txt.gz)  | Directed Gnutella P2P network from August 4 2002
+
+### References
+
+1. Coursera Data Visualization Course Discussion Forums
+2. Coursera Data Visualization Course Lectures
+3. [The R Development Core Team, 2015: A Language and Environment for Statistical Computing](https://www.r-project.org/)
+4. J. Leskovec, J. Kleinberg and C. Faloutsos.[Graph Evolution: Densification and Shrinking Diameters.](http://www.cs.cmu.edu/~jure/pubs/powergrowth-tkdd.pdf) ACM
+Transactions on Knowledge Discovery from Data (ACM TKDD), 1(1), 2007. 
+5. M. Ripeanu and I. Foster and A. Iamnitchi.[Mapping the Gnutella Network: Properties of Large-Scale Peer-to-Peer Systems and Implications for System Design.](http://snap.stanford.edu/data/p2p-Gnutella04.html) IEEE Internet Computing Journal, 2002.  
