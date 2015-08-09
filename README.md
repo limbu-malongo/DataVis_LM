@@ -106,7 +106,7 @@ A sequence of snapshots of the Gnutella peer-to-peer file sharing network from A
 
 #### Dataset statistics
 
-  | 
+  Properties | Values
 ------------- | -------------
 Nodes  | 10876
 Edges  | 39994
